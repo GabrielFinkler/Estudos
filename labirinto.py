@@ -1,3 +1,5 @@
+#Jogo estilo labirinto em que o objetivo é chegar até o quadrado verde.(quadrados azuis são teleportes)
+
 from tkinter import *
 
 # posição do jogador
@@ -181,3 +183,4 @@ root.after(10, loop)
  
 C.pack()
 mainloop()
+
