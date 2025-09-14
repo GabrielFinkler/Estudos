@@ -5,7 +5,8 @@ Aqui organizo exercícios, anotações e pequenos projetos que desenvolvo durant
 ---
 
 ## 📚 O que você vai encontrar aqui
-- **C** → primeiros programas, algoritmos e estruturas de dados  
+- **C** → primeiros programas, algoritmos e estruturas de dados
+- **Python** → primeiros projetos
 - **Outros experimentos** → conforme vou aprendendo coisas novas  
 
 ---
