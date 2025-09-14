@@ -1,3 +1,13 @@
+#/Utilizando a linguagem Python, biblioteca gráfica Tkinter (Canva) e IDE IDLE, desenvolva
+#um jogo no qual o usuário “pilota” um carro por uma pista. O carro não pode sair da pista
+#(perde o jogo). Na implementação do jogo, o carro fica parado e a pista se move, dando
+#a impressão de que o carro está em movimento. Aleatoriamente, devem aparecer
+#obstáculos nos quais o jogador perde se o carro bater e objetos (bônus) que o carro deve
+#passar sobre para obter pontos. Observe que, por exemplo, arbustos ao lado da estrada
+#ficam maiores ao se aproximar do carro (noção de distância). Deve-se ter uma linha de
+#chegada, que deve aparecer quando o usuário atingir um determinado número de pontos.
+#Estime a duração média do jogo de 1 minuto.
+
 from tkinter import *
 from tkinter.ttk import*
 import random
@@ -312,4 +322,5 @@ root.after(10, loop)
 
 C.pack() 
 mainloop()
+
 
