@@ -1,0 +1,12 @@
+20|rua a|92365.000000|2
+16|Av. 747, Bairro Industrial|1072901.000000|6
+11|Travessa 114, Bairro Vila Nova|759348.000000|7
+13|Travessa 502, Bairro Industrial|275755.000000|2
+15|Rua 862, Bairro Bela Vista|210519.000000|2
+17|rua b|467857.000000|3
+10|Alameda 796, Bairro Santa Luzia|846682.000000|5
+14|Av. 157, Bairro Centro|727866.000000|6
+12|Alameda 252, Bairro Maravista|571928.000000|4
+19|Rua 102, Bairro Maravista|101702.000000|1
+21|Rua 508, Bairro Santa Luzia|799697.000000|7
+18|rua|440354.000000|6
