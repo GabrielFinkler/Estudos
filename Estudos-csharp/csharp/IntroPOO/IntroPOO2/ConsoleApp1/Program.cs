@@ -1,14 +1,10 @@
-﻿
+﻿using ConsoleApp1.Modelos;
 
-using System.Runtime.CompilerServices;
-using System.Threading;
-
-using ConsoleApp1.Modelos;
 Banda ira = new Banda("Ira!");
 Banda beatles = new Banda("The Beatles");
-ira.AdicionarNota(10);
-ira.AdicionarNota(8);
-ira.AdicionarNota(6);
+ira.AdicionarNota(new Avaliacao(10));
+ira.AdicionarNota(new Avaliacao(8));
+ira.AdicionarNota(new Avaliacao(6));
 
 string mensagemDeBoasVindas = @"
 ░██████╗░█████╗░██████╗░███████╗███████╗███╗░░██╗  ░██████╗░█████╗░██╗░░░██╗███╗░░██╗██████╗░
@@ -131,9 +127,8 @@ void AvaliarUmaBanda()
         Banda banda = bandasRegistradas[nomeDaBanda];
         Console.Write($"Digite a nota para a banda {nomeDaBanda}: ");
         string nota = Console.ReadLine()!;
-        int notaInt = int.Parse(nota);
-        banda.AdicionarNota(notaInt);
-        Console.WriteLine($"\nA nota {notaInt} foi registrada com sucesso para a banda {nomeDaBanda}");
+        banda.AdicionarNota(Avaliacao.Parse(nota));
+        Console.WriteLine($"\nA nota {nota} foi registrada com sucesso para a banda {nomeDaBanda}");
         Thread.Sleep(1000);
         Console.Clear();
         ExibirOpicoes();
