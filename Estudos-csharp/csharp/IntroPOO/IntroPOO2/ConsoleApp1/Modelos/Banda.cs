@@ -2,7 +2,7 @@
 
 namespace ConsoleApp1.Modelos;
 
-internal class Banda
+public class Banda
 {
     private List<Album> albuns = new List<Album>();
     private List<Avaliacao> notas = new List<Avaliacao>();

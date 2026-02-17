@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp1.Modelos;
 
-internal class Avaliacao
+public class Avaliacao
 {
     public Avaliacao(int nota)
     {

@@ -1,5 +1,5 @@
 ﻿namespace ConsoleApp1.Modelos;
-internal class Musica
+public class Musica
 {
     public Musica(Banda artista, string nome)
     {

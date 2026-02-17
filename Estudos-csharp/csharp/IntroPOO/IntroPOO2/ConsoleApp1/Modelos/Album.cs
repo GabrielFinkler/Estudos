@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp1.Modelos;
 
-internal class Album
+public class Album
 {
     public static int ContadorDeObjetos = 0;
     public Album(string nome)
