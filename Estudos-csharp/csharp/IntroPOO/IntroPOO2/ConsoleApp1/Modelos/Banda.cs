@@ -2,7 +2,7 @@
 
 namespace ConsoleApp1.Modelos;
 
-public class Banda
+public class Banda : IAvaliavel
 {
     private List<Album> albuns = new List<Album>();
     private List<Avaliacao> notas = new List<Avaliacao>();
